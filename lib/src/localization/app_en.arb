@@ -1,19 +1,105 @@
 {
-  "appTitle": "kungfukanji",
+  "appTitle": "KungFu Kanji - Japanese Learning",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "menuHome": "Home",
-  "@menuHome": {
+  "kanji": " KANJI",
+  "@kanji": {
     "description": "The title of the application"
   },
-  "menuCalander": "Calander",
-  "@menuCalander": {
+  "vocab": " VOCABULARY",
+  "@vocab": {
     "description": "The title of the application"
   },
-  "menuContact": "Contact",
-  "@menuContact": {
+  "kanjiTab": "Kanji",
+  "@kanjiTab": {
+    "description": "The title of the application"
+  },
+  "vocabTab": "Vocabulary",
+  "@vocabTab": {
+    "description": "The title of the application"
+  },
+  "settingTab": "Settings",
+  "@settingTab": {
+    "description": "The title of the application"
+  },
+
+  "levelN5List": "N5 LEVEL",
+  "@levelN5List": {
+    "description": "The title of the application"
+  },
+  "levelN4List": "N4 LEVEL",
+  "@levelN4List": {
+    "description": "The title of the application"
+  },
+  "levelN3List": "N3 LEVEL",
+  "@levelN3List": {
+    "description": "The title of the application"
+  },
+  "levelN2List": "N2 LEVEL",
+  "@levelN2List": {
+    "description": "The title of the application"
+  },
+  "levelN1List": "N1 LEVEL",
+  "@levelN1List": {
+    "description": "The title of the application"
+  },
+
+  "allN5LevelKanji": "ALL N5 LEVEL KANJI",
+  "@allN5LevelKanji": {
+    "description": "The title of the application"
+  },
+  "allN4LevelKanji": "ALL N4 LEVEL KANJI",
+  "@allN4LevelKanji": {
+    "description": "The title of the application"
+  },
+  "allN3LevelKanji": "ALL N3 LEVEL KANJI",
+  "@allN3LevelKanji": {
+    "description": "The title of the application"
+  },
+  "allN2LevelKanji": "ALL N2 LEVEL KANJI",
+  "@allN2LevelKanji": {
+    "description": "The title of the application"
+  },
+  "allN1LevelKanji": "ALL N1 LEVEL KANJI",
+  "@allN1LevelKanji": {
+    "description": "The title of the application"
+  },
+  "difficultKanji": "DIFFICULT KANJI SAVED LIST",
+  "@difficultKanji": {
+    "description": "The title of the application"
+  },
+  "veryDifficultKanji": "VERY DIFFICULT KANJI SAVED LIST",
+  "@veryDifficultKanji": {
+    "description": "The title of the application"
+  },    
+
+  "allN5LevelVocab": "ALL N5 LEVEL VOCABULARY",
+  "@allN5LevelVocab": {
+    "description": "The title of the application"
+  },
+  "allN4LevelVocab": "ALL N4 LEVEL VOCABULARY",
+  "@allN4LevelVocab": {
+    "description": "The title of the application"
+  },
+  "allN3LevelVocab": "ALL N3 LEVEL VOCABULARY",
+  "@allN3LevelVocab": {
+    "description": "The title of the application"
+  },
+  "allN2LevelVocab": "ALL N2 LEVEL VOCABULARY",
+  "@allN2LevelVocab": {
+    "description": "The title of the application"
+  },
+  "allN1LevelVocab": "ALL N1 LEVEL VOCABULARY",
+  "@allN1LevelVocab": {
+    "description": "The title of the application"
+  },
+  "difficultVocab": "DIFFICULT VOCABULARY SAVED LIST",
+  "@difficultVocab": {
+    "description": "The title of the application"
+  },
+  "veryDifficultVocab": "VERY DIFFICULT VOCABULARY SAVED LIST",
+  "@veryDifficultVocab": {
     "description": "The title of the application"
   }
-
 }

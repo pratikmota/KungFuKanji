@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import '../sample_feature/sample_item_details_view.dart';
+import '../kanji/kanji_level.dart';
+import '../vocabulary/vocabulary_level.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -15,7 +16,8 @@ class _HomePageState extends State<HomePage> {
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
-    SampleItemDetailsView(),
+    KanjiLevel(),
+    VocabularyLevel()
     //CalanderTab(),
     //MoreTab(),
   ];
@@ -40,20 +42,20 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: const Icon(Icons.home),
-            label: AppLocalizations.of(context)!.menuHome,
+            icon: const Icon(Icons.translate),
+            label: AppLocalizations.of(context)!.kanjiTab,
           ),
           BottomNavigationBarItem(
-            icon: const Icon(Icons.calendar_today),
-            label: AppLocalizations.of(context)!.menuCalander,
+            icon: const Icon(Icons.sort_by_alpha),
+            label: AppLocalizations.of(context)!.vocabTab,
           ),
           BottomNavigationBarItem(
-            icon: const Icon(Icons.contact_page),
-            label: AppLocalizations.of(context)!.menuContact,
+            icon: const Icon(Icons.settings),
+            label: AppLocalizations.of(context)!.settingTab,
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
+        selectedItemColor: const Color.fromARGB(255, 12, 115, 179),
         onTap: _onItemTapped,
       ),
     );
