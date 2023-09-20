@@ -1,0 +1,19 @@
+{
+  "appTitle": "kungfukanji",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "menuHome": "Home",
+  "@menuHome": {
+    "description": "The title of the application"
+  },
+  "menuCalander": "Calander",
+  "@menuCalander": {
+    "description": "The title of the application"
+  },
+  "menuContact": "Contact",
+  "@menuContact": {
+    "description": "The title of the application"
+  }
+
+}
